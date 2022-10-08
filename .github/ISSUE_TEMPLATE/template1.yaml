@@ -6,9 +6,8 @@ labels: ["BUG"]
 body:
     - type: markdown
       attributes:
-          value: "|
-              Thanks for taking the time to fill out this bug report! |
-              Please search ["Issues"](https://github.com/angsd/angsd/issues) to see if an issue already exists for the bug you encountered."
+          value: "Thanks for taking the time to fill out this bug report!
+          Please search ["Issues"](https://github.com/angsd/angsd/issues) to see if an issue already exists for the bug you encountered."
     - type: textarea
       id: what-happened
       attributes:
