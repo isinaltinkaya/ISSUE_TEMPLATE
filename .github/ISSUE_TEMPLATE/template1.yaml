@@ -7,7 +7,8 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thanks for taking the time to fill out this bug report! Please search to see if an issue already exists for the bug you encountered.
+              "Thanks for taking the time to fill out this bug report! |
+              Please search [Issues](https://github.com/angsd/angsd/issues) to see if an issue already exists for the bug you encountered."
     - type: textarea
       id: what-happened
       attributes:
@@ -20,8 +21,8 @@ body:
       id: version
       attributes:
           label: Version
-          description: Please specify your ANGSD and HTSlib version.
-          value: "`angsd 2>&1|head -1` ANGSD version: "
+          description: "Please specify your ANGSD and HTSlib version, i.e. `angsd 2>&1|head -1`"
+          value: "Version: "
       validations:
           required: true
     - type: textarea
@@ -37,7 +38,7 @@ body:
           description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
           render: bash
     - type: textarea
-      id: mre
+      id: reprex
       attributes:
           label: Minimal reproducible example
-          description: A minimal dataset to reproduce the error
+          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue"
