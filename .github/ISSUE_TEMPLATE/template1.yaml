@@ -15,7 +15,7 @@ body:
           description: What happened and what did you expect to happen?
           placeholder: Tell us what you see!
       validations:
-        required: true
+          required: true
     - type: markdown
       id: version
       attributes:
@@ -23,7 +23,7 @@ body:
           description: Please specify your ANGSD and HTSlib version.
           value: "`angsd 2>&1|head -1` ANGSD version: "
       validations:
-        required: true
+          required: true
     - type: textarea
       id: commands
       attributes:
@@ -39,5 +39,5 @@ body:
     - type: textarea
       id: mre
       attributes:
-        label: Minimal reproducible example
-        description: A minimal dataset to reproduce the error
+          label: Minimal reproducible example
+          description: A minimal dataset to reproduce the error
