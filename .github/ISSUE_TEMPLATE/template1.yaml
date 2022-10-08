@@ -3,7 +3,6 @@ about: Report a bug
 description: File a bug report
 title: "[BUG]: <title> "
 labels: ["bug"]
-assignees: ''
 
 body:
     - type: markdown
