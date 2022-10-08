@@ -6,9 +6,9 @@ labels: ["BUG"]
 body:
     - type: markdown
       attributes:
-          value: |
-              "Thanks for taking the time to fill out this bug report! |
-              Please search [Issues](https://github.com/angsd/angsd/issues) to see if an issue already exists for the bug you encountered."
+          value: "|
+              Thanks for taking the time to fill out this bug report! |
+              Please search ["Issues"](https://github.com/angsd/angsd/issues) to see if an issue already exists for the bug you encountered."
     - type: textarea
       id: what-happened
       attributes:
@@ -17,12 +17,12 @@ body:
           placeholder: Tell us what you see!
       validations:
           required: true
-    - type: textarea
+    - type: input
       id: version
       attributes:
           label: Version
           description: "Please specify your ANGSD and HTSlib version, i.e. `angsd 2>&1|head -1`"
-          value: "Version: "
+          placeholder: "Version: "
       validations:
           required: true
     - type: textarea
@@ -41,4 +41,6 @@ body:
       id: reprex
       attributes:
           label: Minimal reproducible example
-          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue"
+          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue
+          1) A small dataset, this can be a subset of the data you used
+          2) Commands to reproduce the issue with given dataset"
