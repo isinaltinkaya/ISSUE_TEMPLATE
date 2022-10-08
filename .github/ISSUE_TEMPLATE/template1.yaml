@@ -16,13 +16,12 @@ body:
           placeholder: Tell us what you see!
       validations:
         required: true
-    - type: input
+    - type: markdown
       id: version
       attributes:
           label: Version
           description: Please specify your ANGSD and HTSlib version.
           value: "`angsd 2>&1|head -1` ANGSD version: "
-          render: markdown
       validations:
         required: true
     - type: textarea
