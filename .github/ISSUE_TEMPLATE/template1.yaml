@@ -21,7 +21,7 @@ body:
       id: version
       attributes:
           label: Version
-          description: Please specify your ANGSD and HTSlib version. Run `angsd` and paste the first line: `angsd 2>&1|head -1`
+          description: Please specify your ANGSD and HTSlib version. angsd 2>&1|head -1
           value: "ANGSD version: "
       validations:
         required: true
