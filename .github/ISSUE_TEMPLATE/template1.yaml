@@ -16,7 +16,7 @@ body:
           placeholder: Tell us what you see!
       validations:
           required: true
-    - type: markdown
+    - type: textarea
       id: version
       attributes:
           label: Version
