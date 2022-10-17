@@ -12,7 +12,7 @@ body:
       attributes:
           label: What happened?
           description: What happened and what did you expect to happen?
-          placeholder: Tell us what you see!
+          placeholder: Tell us what happened!
       validations:
           required: true
     - type: input
@@ -27,18 +27,20 @@ body:
       id: commands
       attributes:
           label: Relevant commands
-          description: Please copy and paste any relevant commands you used. This will be automatically formatted into code, so no need for backticks. This will help us replicate the 
+          description: Please copy and paste any relevant commands you used.. This will help us replicate the 
           render: bash
+          placeholder: "Automatically formatted into code, no need for backticks"
     - type: textarea
       id: logs
       attributes:
           label: Relevant log output
           description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
           render: bash
+          placeholder: "Automatically formatted into code, no need for backticks"
     - type: textarea
       id: reprex
       attributes:
           label: Minimal reproducible example
-          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue
-          1) A small dataset, this can be a subset of the data you used
+          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue" \
+          "1) A small dataset, this can be a subset of the data you used
           2) Commands to reproduce the issue with given dataset"
