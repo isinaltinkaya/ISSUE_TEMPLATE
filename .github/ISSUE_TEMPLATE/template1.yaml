@@ -41,6 +41,6 @@ body:
       id: reprex
       attributes:
           label: Minimal reproducible example
-          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue" \
-          "1) A small dataset, this can be a subset of the data you used
+          description: "A [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) contains all components needed to reproduce the issue
+          1) A small dataset, this can be a subset of the data you used
           2) Commands to reproduce the issue with given dataset"
